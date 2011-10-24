@@ -16,6 +16,7 @@ class CoolStoryBro(Exception):
             return self.tl_dr
         return "U MAD?"
 
+
 class CoolStoryBroPlugin(Plugin):
 
     name = 'coolstorybro'

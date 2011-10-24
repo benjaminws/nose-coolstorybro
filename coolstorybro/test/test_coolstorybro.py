@@ -15,6 +15,7 @@ class CoolStoryBroTest(PluginTester, unittest.TestCase):
     def test_emits_coolstorybro_exception(self):
         assert "U MAD?" in self.output
 
+
 class CoolStoryBroTlDr(PluginTester, unittest.TestCase):
 
     activate = '--with-coolstorybro'
