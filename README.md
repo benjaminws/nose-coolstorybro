@@ -5,6 +5,11 @@ COOL STORY BRO
 
 You're welcome.
 
+INSTALL, BRO
+============
+
+   $ pip install git+git://github.com/benjaminws/nose-coolstorybro.git
+
 USAGE, BRO
 ==========
 
