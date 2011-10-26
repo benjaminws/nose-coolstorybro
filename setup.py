@@ -2,12 +2,14 @@ import sys
 from setuptools import setup
 
 setup(
-    name='coolstorybro',
+    name='nose-coolstorybro',
     version='0.1',
     author='Benjamin W. Smith',
     author_email = 'benjaminwarfield@just-another.net',
     description = 'TL;DR',
+    long_description=open('./README.md').read(),
     license = 'BSD',
+    url='https://github.com/benjaminws/nose-coolstorybro',
     packages = ['coolstorybro'],
     entry_points = {
         'nose.plugins': [
